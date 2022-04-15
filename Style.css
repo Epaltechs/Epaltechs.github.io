@@ -1,0 +1,647 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,700&display=swap");
+@import url("https://www.dafont.com/cocogoose.font");
+
+* {
+  margin: 0;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-family: "cocogoose", sans-serif;
+}
+
+#root {
+  background-color: #f1f5fa;
+}
+
+#index {
+  background-image: url(./images/Background2.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+#index #container-def {
+  width: 90%;
+  height: 650px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#index #container-def h1 {
+  color: #d41c1c;
+  font-size: 70px;
+  font-weight: 1000;
+  line-height: 70px;
+  padding-bottom: 12px;
+  font-family: "Lato", sans-serif;
+  animation: example 5s ease-in-out 1;
+}
+
+@keyframes example {
+  from { color: blue; }
+  to { color: rgb(140, 0, 255); }
+}
+
+#index #container-def h2 {
+  color: black;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: "cocogoose", sans-serif;
+  margin-top: 1rem;
+}
+
+#index #container-def p {
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Cocogoose", sans-serif;
+  margin-top: 1rem;
+}
+
+#index #container-def h3 {
+  color: #d31717;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: "Cocogoose", sans-serif;
+  padding-top: 10rem;
+}
+
+#program {
+  align-content: center;
+  justify-content: space-between;
+  background-color: rgba(10, 10, 10, 0.815);
+  padding: 2rem 0;
+}
+
+#program .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#program .container > div {
+  background-color: rgba(153, 149, 149, 0.3);
+  margin: 5px;
+  padding: 5px;
+  width: calc(20% - 10px);
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#program .container > div .img {
+  width: 30px;
+  margin: auto;
+} 
+
+#program .container h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ec5242;
+  text-align: center;
+}
+
+#program .container p {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+
+#program h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+#program h5 {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: "Cocogoose", sans-serif;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  color: white;
+}
+
+#program hr {
+  width: 50px;
+  margin: auto;
+  border: none;
+  height: 4px;
+  background:red;
+}
+
+#speakers {
+  align-content: center; 
+  justify-content: space-between;
+  background-color: rgb(241, 244, 247);
+}
+
+#speakers .container {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  width: 80%
+}
+
+#speakers .container > div {
+  background-color: whitesmoke;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+} 
+
+#speakers h3 {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#speakers hr {
+  width: 50px;
+  margin: auto;
+  border: none;
+  height: 4px;
+  background:red;
+}
+
+#speakers h3 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#speakers .container h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(27, 26, 26);
+}
+
+#speakers .container h5 {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(201, 11, 11);
+}
+
+#speakers .container p {
+  font-size: 12px;
+  color: black;
+}
+
+#footer .advert {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(87, 87, 90);
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+}
+
+#footer .advert .advlogo {
+  width: 80%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;;
+  color: rgb(165, 18, 18);
+}
+
+#footer .advert h2 {
+  font-size: 20px;
+  color: rgb(167, 160, 160);
+  font-weight: 600;
+  text-align: center;
+}
+
+#footer .advert hr {
+  width: 50px;
+  margin: auto;
+  border: none;
+  height: 4px;
+  background:red;
+}
+
+#footer .advert h6 {
+  font-size: 18px;
+  color: rgb(167, 160, 160);
+  font-weight: 600;
+  text-align: center;
+}
+
+#footer .copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer .copyright h5 {
+font-size: 18px;
+font-weight: 600;
+}
+
+#footer .copyright h6 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#about #container-def {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#about #container-def h1 {
+  color: #d41c1c;
+  font-size: 70px;
+  font-weight: 1000;
+  line-height: 70px;
+  margin-bottom: 12px;
+  font-family: "Lato", sans-serif;
+  animation: example 5s ease-in-out 1;
+  text-align: center;
+}
+
+#about #container-def h3 {
+  color: #d31717;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: "Cocogoose", sans-serif;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+#about #container-def p {
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Cocogoose", sans-serif;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#about .about-intro {
+  background-color: #ebf0f5;
+  margin: 15 0px;
+  padding: 5px;
+}
+
+#about .about-logo {
+  margin: 5rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about hr {
+  width: 50px;
+  margin: auto;
+  border: none;
+  height: 4px;
+  background:red;
+}
+
+#about .about-logo h4 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#about .about-logo-img {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#about .about-logo-img img{
+  width: 100px;
+}
+
+#about .past h4 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#about .past {
+ margin: 5rem 0;
+}
+
+#about .past p {
+  text-align: center;
+  font-size: 18px;
+  padding: 1rem 0 3rem 0;
+  font-weight: 600;
+}
+
+#about .past .zoom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  gap: 50px;
+  margin:auto;
+}
+
+#about .past-img {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+#about .past-img img{
+  width: 100%;
+  height: 100%;
+  position:relative;
+  z-index: 0;
+}
+
+#about .past-img .vzoom {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(224, 21, 21, 0.5);
+}
+
+#about-footer .copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #363535;
+  padding: 1rem 5%;
+  width: (calc(100% - 20%))
+}
+
+#about-footer .copyright h5 {
+font-size: 18px;
+font-weight: 600;
+color: white;
+}
+
+#about-footer .copyright h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+#about-footer .copyright p {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+  #about-footer .epallo {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  *{
+  margin: 0;
+  padding: 0 5px;
+}
+
+  #navbar .navbar-brand {
+    display: none;
+}
+
+  #navbar .navbar-toggler {
+    align-items: left;
+    background-color: #d1cfd4;
+  }
+
+  #index #container-def h1 {
+    color: #d41c1c;
+    font-size: 30px;
+    font-weight: 1000;
+    line-height: 30px;
+    margin-bottom: 2px;
+    font-family: "Lato", sans-serif;
+    animation: example 5s ease-in-out 1;
+  }
+
+  #index #container-def h2 {
+    color: black;
+    font-weight: 600;
+    line-height: 14px;
+    font-family: "cocogoose", sans-serif;
+    margin-top: 6px;
+    font-size: 18px;
+  }
+
+  #index #container-def h3 {
+    color: #d31717;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Cocogoose", sans-serif;
+    padding-top: 5rem;
+  }
+
+  #about #container-def h1 {
+    color: #d41c1c;
+    font-size: 30px;
+    font-weight: 1000;
+    line-height: 30px;
+    margin-bottom: 2px;
+    font-family: "Lato", sans-serif;
+    animation: example 5s ease-in-out 1;
+  }
+
+  #about #container-def h3 {
+    color: #d31717;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Cocogoose", sans-serif;
+    margin-top: 5rem;
+  }
+
+  #footer .advert {
+    display: none;
+  }
+  
+  #program .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  
+  #program .container > div {
+    background-color: #999595;
+    margin: 0 0 10px 0;
+    padding: 5px;
+    width: 95%;
+    min-height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    align-items: center;
+  }
+
+  #program .container h4 {
+    font-size: 16px;
+    text-align: start;
+    width: 100px;
+  }
+  
+  #program .container p {
+    text-align: start;
+  }
+  
+
+  #speakers {
+    display: grid;
+    align-content: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 30%;
+    margin: 2rem 0;
+  }
+  
+  #speakers .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(123, 125, 128);
+    align-items: center;
+    padding: 80px;
+  }
+  
+  #about #container-def h1 {
+    color: #d41c1c;
+    font-size: 30px;
+    font-weight: 1000;
+    line-height: 30px;
+    margin-bottom: 2px;
+    padding-bottom: 16px;
+    font-family: "Lato", sans-serif;
+    animation: example 5s ease-in-out 1;
+  }
+
+  #about #container-def h3 {
+    color: #d31717;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Cocogoose", sans-serif;
+    padding-top: 2rem;
+  }
+
+  #about #container-def h4 {
+    color:black;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Cocogoose", sans-serif;
+    padding-top: 2rem;
+  }
+
+  #about-footer .advert {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: rgb(87, 87, 90);
+  padding: 2rem;
+  margin: 3rem 0;
+}
+
+#about-footer .advert .advlogo {
+display: block;
+}
+
+#about-footer .advert h2 {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+}
+
+#about-footer .advert h3 {
+  display: inline-block;
+}
+
+#about-footer .advert p {
+  display: inline-block;
+}
+
+#about-footer .advert hr {
+  width: 50px;
+  margin: auto;
+  border: none;
+  height: 4px;
+  background:red;
+}
+
+#about-footer .advert h6 {
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+}
+
+  @media screen and (min-width: 768px) {
+    
+    #logo {
+      transition: transform 0.5s ease-out;
+    }
+  
+    #logo:hover {
+      transform: scale(1.1) rotate(360deg);
+    }
+    
+    #index {
+      background-position-y: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      overflow-y: hidden;
+    }
+  
+    #index #container-def {
+      width: 90%;
+      height: 45%;
+      display: flex;
+      flex-direction: column;
+      animation: def-animation 2s ease-in-out 1;
+    }
+
+    #about-footer .advert {
+      display: none;
+    }
+    
+    @keyframes def-animation {
+      0% {
+        margin-top: 100%;
+      }
+  
+      100% {
+        margin-top: 0;
+      }
+    }
+  }
+  
