@@ -419,7 +419,7 @@
     display: none;
   }
 
-  #about-footer .advert h2 {
+  #about-partners .advert h2 {
     font-size: 20px;
     color: white;
     font-weight: 600;
@@ -427,15 +427,15 @@
     display: inline-block;
   }
 
-  #about-footer .advert h3 {
+  #about-partners .advert h3 {
     display: inline-block;
   }
 
-  #about-footer .advert p {
+  #about-partners .advert p {
     display: inline-block;
   }
 
-  #about-footer .advert hr {
+  #about-partners .advert hr {
     width: 50px;
     margin: auto;
     border: none;
@@ -443,7 +443,7 @@
     background: red;
   }
 
-  #about-footer .advert h6 {
+  #about-partners .advert h6 {
     font-size: 22px;
     color: white;
     font-weight: 600;
@@ -557,7 +557,7 @@
     padding-top: 2rem;
   }
 
-  #about-footer .advert {
+  #about-partners .advert {
     width: 100%;
     text-align: center;
     background-color: rgb(87, 87, 90);
@@ -565,7 +565,7 @@
     margin: 3rem 0;
   }
 
-  #about-footer .advert .advlogo {
+  #about-partners .advert .advlogo {
     display: block;
   }
 }
@@ -596,7 +596,7 @@
     animation: def-animation 2s ease-in-out 1;
   }
 
-  #about-footer .advert {
+  #about-partners .advert {
     display: none;
   }
 
