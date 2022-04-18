@@ -168,9 +168,8 @@
 
 #about .past p {
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   padding: 1rem 0 3rem 0;
-  font-weight: 600;
 }
 
 #about-footer .copyright p {
@@ -228,7 +227,7 @@
 
 #about .past h4 {
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -448,6 +447,63 @@
     color: white;
     font-weight: 600;
     text-align: center;
+  }
+
+  #footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 1px;
+  }
+
+  #footer .copyright h5 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #footer .copyright h6 {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  #footer .copyright p {
+    font-size: 9px;
+    font-weight: 600;
+  }
+
+  #about-footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #363535;
+    padding-top: 5px;
+    padding-bottom: 1px;
+  }
+
+  #about-footer .copyright h5 {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+  }
+
+  #about-footer .copyright h6 {
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+  }
+
+  #about-footer .copyright p {
+    font-size: 9px;
+    font-weight: 600;
+    color: white;
+  }
+
+  #about .past .zoom {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   #index #container-def h1 {
