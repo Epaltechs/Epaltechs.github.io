@@ -2,7 +2,7 @@ const speakersData = [{
   id: 1,
   name: 'Luciandro',
   title: 'Head of Web development unit in MTN',
-  details: 'MTN, a leading South African company that has become muti-national telecommunications company',
+  details: 'MTN, a leading South African company that has become muti-national telecommunications company.',
   image: './images/Luciandro.jpg',
 },
 {
@@ -46,7 +46,7 @@ function speakerfunc() {
   const container = document.querySelector('.experts');
   speakersData.map((el) => {
     const div = document.createElement('div');
-    div.innerHTML = `<img class="images" src=${el.image} width="200" height="200" alt="Exhibition image" />
+    div.innerHTML = `<img class="images" src=${el.image} width="150" height="150" alt="Exhibition image" />
 <div class="details">
   <h4>${el.name}</h4>
   <h5>${el.title}</h5>

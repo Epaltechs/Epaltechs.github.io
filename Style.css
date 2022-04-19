@@ -25,7 +25,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 
 #program .container > div {
@@ -37,6 +38,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 1.5rem;
 }
 
 #program .container > div .img {
@@ -49,6 +51,7 @@
   font-weight: 600;
   color: #ec5242;
   text-align: center;
+  padding-top: 10px;
 }
 
 #program .container p {
@@ -95,8 +98,8 @@
   align-items: center;
   padding: 20px;
   grid-template-columns: 1fr 1fr;
-  column-gap: 80px;
-  width: 80%;
+  column-gap: 2rem;
+  width: 100%;
 }
 
 #speakers .container > div {
@@ -176,6 +179,11 @@
   font-size: 12px;
   font-weight: 600;
   color: white;
+}
+
+#footer .copyright p {
+  font-size: 12px;
+  font-weight: 600;
 }
 
 #about #container-def p {
@@ -276,11 +284,14 @@
   justify-content: space-between;
   align-items: center;
   background-color: #363535;
-  padding: 1rem 5%;
+
+  /* padding: 0.5rem 5%; */
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #about-footer .copyright h5 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   color: white;
 }
@@ -310,12 +321,12 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 2rem;
-  color: rgb(165, 18, 18);
+  color: rgb(172, 169, 169);
 }
 
 #footer .advert h2 {
   font-size: 20px;
-  color: rgb(167, 160, 160);
+  color: rgb(192, 190, 190);
   font-weight: 600;
   text-align: center;
 }
@@ -330,7 +341,7 @@
 
 #footer .advert h6 {
   font-size: 18px;
-  color: rgb(167, 160, 160);
+  color: rgb(192, 190, 190);
   font-weight: 600;
   text-align: center;
 }
@@ -342,7 +353,7 @@
 }
 
 #footer .copyright h5 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -420,7 +431,7 @@
 
   #about-partners .advert h2 {
     font-size: 20px;
-    color: white;
+    color: rgb(192, 190, 190);
     font-weight: 600;
     text-align: center;
     display: inline-block;
@@ -428,6 +439,7 @@
 
   #about-partners .advert h3 {
     display: inline-block;
+    color: rgb(172, 169, 169);
   }
 
   #about-partners .advert p {
@@ -450,53 +462,33 @@
   }
 
   #footer .copyright {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 5px;
-    padding-bottom: 1px;
+    display: none;
   }
 
-  #footer .copyright h5 {
+  #about-footer .epallo {
+    color: black;
     font-size: 12px;
-    font-weight: 600;
-  }
-
-  #footer .copyright h6 {
-    font-size: 10px;
-    font-weight: 600;
-  }
-
-  #footer .copyright p {
-    font-size: 9px;
-    font-weight: 600;
   }
 
   #about-footer .copyright {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #363535;
+    background-color: white;
     padding-top: 5px;
     padding-bottom: 1px;
   }
 
   #about-footer .copyright h5 {
-    font-size: 12px;
-    font-weight: 600;
-    color: white;
-  }
-
-  #about-footer .copyright h6 {
     font-size: 10px;
     font-weight: 600;
-    color: white;
+    color: black;
   }
 
   #about-footer .copyright p {
-    font-size: 9px;
+    font-size: 8px;
     font-weight: 600;
-    color: white;
+    color: black;
   }
 
   #about .past .zoom {
@@ -566,22 +558,37 @@
     text-align: start;
   }
 
+  #program .join {
+    background-color: #ec5242;
+    margin-left: 2.5rem;
+    width: 80%;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
   #speakers {
     display: grid;
     align-content: center;
     justify-content: space-between;
-    width: 30%;
     height: 30%;
-    margin: 2rem 0;
+    width: 100%;
   }
 
   #speakers .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(123, 125, 128);
     align-items: center;
-    padding: 80px;
+  }
+
+  #speakers .container > div {
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
   }
 
   #about #container-def h1 {
@@ -653,6 +660,10 @@
   }
 
   #about-partners .advert {
+    display: none;
+  }
+
+  #program .join {
     display: none;
   }
 
