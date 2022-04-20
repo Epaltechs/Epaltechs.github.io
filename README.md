@@ -1,5 +1,4 @@
-# Emmanuel's Portfolio
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Emmanuel's Web Conference Pages
 ​
 Building my first Microverse Capstone Project with the frameworks and tools available on the web. Also using mordern and world-class methodologies to replicate a web design project.
 
@@ -11,11 +10,11 @@ Building my first Microverse Capstone Project with the frameworks and tools avai
 - Linters
 
 
-## Live Demo
+## Live Demo Link
 
-[Live Demo Link]
-(`https://www.loom.com/share/37ab2c84651447159816a99591fbac3f`)
-(`https://https://epaltechs.github.io/`)
+https://www.loom.com/share/37ab2c84651447159816a99591fbac3f
+
+https://https://epaltechs.github.io/
 ​
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
