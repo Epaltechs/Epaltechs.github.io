@@ -46,7 +46,7 @@ If you like this project you can support just by giving a like.
 Emmanuel Paul to Everyone (10:25)
 
 ## Acknowledgments
-Many thanks to Rwubakwanayo Olivier for your wonderful support. Also, to others in the Microverse community, who different ways have provided me the support to carry out this project.
+Many thanks to Firdavs Allamurotov and Rwubakwanayo Olivier for your wonderful support. Also, to others in the Microverse community, who in different ways have provided me the support to carry out this project.
 
 Furthermore, I'll like to give credit to Cindy Shin in Behance who created the original design of the web page.
 ## 📝 License
