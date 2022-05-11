@@ -13,9 +13,9 @@ Building my first Microverse Capstone Project with the frameworks and tools avai
 
 ## Live Demo Link
 
-https://www.loom.com/share/37ab2c84651447159816a99591fbac3f
+(https://www.loom.com/share/37ab2c84651447159816a99591fbac3f)
 
-https://https://epaltechs.github.io/
+(https://epaltechs.github.io/)
 ​
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
