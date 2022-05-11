@@ -27,8 +27,7 @@ To get a local copy up and running, follow these simple steps:
 - go to the repository folder in your command prompt `cd Conference-page`
 
 
-## Authors
-👤 **Author1**
+## 👤 **Author**
 ## Emmnanuel Paul
 - GitHub: [https://epaltechs.github.io/]
 - LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
