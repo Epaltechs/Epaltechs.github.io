@@ -2,7 +2,7 @@
 ​
 Building my first Microverse Capstone Project with the frameworks and tools available on the web. Also using mordern and world-class methodologies to replicate a web design project.
 
-![](screenshot)
+![](screenshot.png)
 ## Built With
 ​
 - HTML 
