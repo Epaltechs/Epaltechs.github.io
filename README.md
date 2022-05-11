@@ -1,6 +1,6 @@
 # Emmanuel's Web Conference Pages
 ​
-Building my first Microverse Capstone Project with the frameworks and tools available on the web. Also using mordern and world-class methodologies to replicate a web design project.
+My first Microverse Capstone Project built with the frameworks and tools available on the web. It is a web conference project where I use modern and world-class methodologies to replicate a web design project.
 
 ![](screenshot.png)
 ## Built With
