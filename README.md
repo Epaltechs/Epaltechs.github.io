@@ -30,7 +30,7 @@ To get a local copy up and running, follow these simple steps:
 ## 👤 **Author**
 ## Emmnanuel Paul
 - GitHub: [https://github.com/Epaltechs/Epaltechs.github.io]
-- LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
+- LinkedIn: [https://www.linkedin.com/in/emmanuel-s-paul/]
 - Twitter: [http://twitter.com/@emmapaul247].
 ​
 ## 🤝 Contributor
